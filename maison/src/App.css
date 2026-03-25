@@ -401,3 +401,12 @@ button:hover {
 button:active {
   transform: scale(0.95);
 }
+
+.nav-btn {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+}
