@@ -7,7 +7,6 @@ import "./App.css";
 
 function App() {
   const [cart, setCart] = useState([]);
-  console.log("helllllll");
 
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("cart"));
